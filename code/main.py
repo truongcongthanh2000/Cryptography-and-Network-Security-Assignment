@@ -63,6 +63,8 @@ keyCaesar = int(input())
 keyRail_fence = int(input())
 
 print("Plaintext Input =", plaintext)
+print("keyCaesar Input =", keyCaesar)
+print("keyRail_fence Input =", keyRail_fence)
 print()
 if True:
     begin = timeit.default_timer()
@@ -81,6 +83,6 @@ if True:
     
     end = timeit.default_timer()
     print('Time Rail Fence Cipher = ', end - begin)
-    
+
 stop = timeit.default_timer()
 print('Time: ', stop - start, file = sys.stderr)

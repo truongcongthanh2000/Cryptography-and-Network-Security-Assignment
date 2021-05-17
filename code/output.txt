@@ -1,17 +1,19 @@
 Plaintext Input = Security
+keyCaesar Input = 86
+keyRail_fence Input = 3
 
 Encode with Caesar Cipher:
-ciphertext =  $pnFCtEJ
+ciphertext =  J53li9kp
 
 Decode with Caesar Cipher:
 plaintext =  Security
-key =  11
-Time Caesar Cipher =  0.0005642000000000147
+key =  86
+Time Caesar Cipher =  0.001366299999999987
 
 Encode with Rail Fence Cipher:
-ciphertext =  Secuyrti
+ciphertext =  Sreuiyct
 
 Decode with Rail Fence Cipher:
 plaintext =  Security
-key =  6
-Time Rail Fence Cipher =  0.00017220000000001123
+key =  3
+Time Rail Fence Cipher =  8.940000000001724e-05

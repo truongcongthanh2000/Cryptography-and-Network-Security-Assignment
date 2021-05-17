@@ -5,3 +5,5 @@ python gen.py > input.txt
 
 echo "Run code"
 python main.py < input.txt > output.txt
+
+rm -r __pycache__

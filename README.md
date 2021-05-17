@@ -7,6 +7,10 @@
 |Trần Xuân Hoàng|1812302|
 |Trương Công Thành|1810766|
 
+## Run code 
+    open terminal and type
+    ./bash.sh
+    
 ## Generate Input 
 
 ### input format:

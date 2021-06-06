@@ -5,6 +5,9 @@ from collections import Counter
 import random
 from caesarCipher import Caesar
 from rail_fenceCipher import Rail_fence
+from encrypt import Encrypt
+from decrypt_withscore import Decrypt_withscore
+from decrypt_withEngDic import Decrypt_withEngDic
 import numpy as np
 
 # run code: python3 main.py < input.txt
@@ -16,48 +19,93 @@ import numpy as np
 
 def caesarAlogirhm():
     print('Encode with Caesar Cipher:')
-    _caesarCipher = Caesar(alphabet, keyCaesar)
-    ciphertext = _caesarCipher.encrypt(plaintext)
+    ciphertext = list_ciphertext[0]
     print('ciphertext = ', ciphertext)
     print()
-    print('Decode with Caesar Cipher:')
-    list_keyCaesar = np.random.permutation(len(alphabet))
+    begin = timeit.default_timer()
 
-    for key in list_keyCaesar:
-        _caesarCipher.setKey(key)
-        temp_plaintext = _caesarCipher.decrypt(ciphertext)
-        if (temp_plaintext == plaintext):
-            print('plaintext = ', plaintext)
-            print('key = ', key)
-            return
-        
-    assert False, 'error with decode in caesarAlgorithm'
+    print('Decode with Caesar Cipher with Score:')
+
+    print(_decrypt_withscore.decrypt_caesar(ciphertext))
+
+    end = timeit.default_timer()
+
+    print('Time execute Decode with Caesar Cipher with Score =', end - begin)
+
+    print()
+
+    begin = timeit.default_timer()
+
+    print('Decode with Caesar Cipher with English Dictionary:')
+    print(_decrypt_withEngDic.decrypt_caesar(ciphertext))
+
+    end = timeit.default_timer()
+
+    print('Time execute Decode with Caesar Cipher with English Dictionary =', end - begin)
+    print()
+
 
 def Rail_fenceAlgorithm():
     print('Encode with Rail Fence Cipher:')
-    _rail_fenceCipher = Rail_fence(keyRail_fence)
-    ciphertext = _rail_fenceCipher.encrypt(plaintext)
+    ciphertext = list_ciphertext[1]
     print('ciphertext = ', ciphertext)
     print()
-    print('Decode with Rail Fence Cipher:')
+    begin = timeit.default_timer()
 
-    list_keyRail_fence = [key for key in range(2, len(ciphertext))]
-    random.shuffle(list_keyRail_fence)
+    print('Decode with Rail_fence Cipher with Score:')
 
-    for key in list_keyRail_fence:
-        _rail_fenceCipher.setKey(key)
-        temp_plaintext = _rail_fenceCipher.decrypt(ciphertext)
-        if (temp_plaintext == plaintext):
-            print('plaintext = ', plaintext)
-            print('key = ', key)
-            return
-        
-    assert False, 'error with decode in Rail_fenceAlgorithm'
+    print(_decrypt_withscore.decrypt_Product(ciphertext))
+
+    end = timeit.default_timer()
+
+    print('Time execute Decode with Rail_fence Cipher with Score =', end - begin)
+    
+    print()
+
+    begin = timeit.default_timer()
+
+    print('Decode with Rail_fence Cipher with English Dictionary:')
+    print(_decrypt_withEngDic.decrypt_Product(ciphertext))
+
+    end = timeit.default_timer()
+
+    print('Time execute Decode with Rail_fence Cipher with English Dictionary =', end - begin)
+    print()
+
+# Rail_fence(Caesar())
+def productAlgorithm():
+    print('Encode with product encryption Rail_fence x Caesar')
+    ciphertext = list_ciphertext[2]
+    print('ciphertext = ', ciphertext)
+    print()
+
+    begin = timeit.default_timer()
+
+    print('Decode with Rail_fence x Caesar Cipher with Score:')
+
+    print(_decrypt_withscore.decrypt_Product(ciphertext))
+
+    end = timeit.default_timer()
+
+    print('Time execute Decode with Rail_fence x Caesar Cipher with Score =', end - begin)
+
+    print()
+
+    begin = timeit.default_timer()
+
+    print('Decode with Rail_fence x Caesar Cipher with English Dictionary:')
+    print(_decrypt_withEngDic.decrypt_Product(ciphertext))
+
+    end = timeit.default_timer()
+
+    print('Time execute Decode with Rail_fence x Caesar Cipher with English Dictionary =', end - begin)
+    print()
 
 
 start = timeit.default_timer()
 
-alphabet = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ '
+alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '
+print(len(alphabet))
 plaintext = input()
 keyCaesar = int(input())
 keyRail_fence = int(input())
@@ -66,9 +114,22 @@ print("Plaintext Input =", plaintext)
 print("keyCaesar Input =", keyCaesar)
 print("keyRail_fence Input =", keyRail_fence)
 print()
+
+_encrypt = Encrypt(alphabet, keyCaesar, keyRail_fence)
+
+# [Caesar, Rail_fence, Rail_fence(Caesar)]
+list_ciphertext = _encrypt.encrypt(plaintext)
+# print("List ciphertext = ")
+# for x in list_ciphertext:
+#     print(x)
+_decrypt_withscore = Decrypt_withscore(alphabet)
+_decrypt_withEngDic = Decrypt_withEngDic(alphabet)
+
+
 if True:
     begin = timeit.default_timer()
     
+    print('---------------------------------------------------')
     caesarAlogirhm()
 
     end = timeit.default_timer()
@@ -79,10 +140,24 @@ if True:
 if True:
     begin = timeit.default_timer()
     
+    print('---------------------------------------------------')
+
     Rail_fenceAlgorithm()
     
     end = timeit.default_timer()
     print('Time Rail Fence Cipher = ', end - begin)
+    print()
+
+if True:
+    begin = timeit.default_timer()
+    
+    print('---------------------------------------------------')
+   
+    productAlgorithm()
+    
+    end = timeit.default_timer()
+    print('Time Rail Rail_fence x Caesar Cipher = ', end - begin)
+
 
 stop = timeit.default_timer()
 print('Time: ', stop - start, file = sys.stderr)

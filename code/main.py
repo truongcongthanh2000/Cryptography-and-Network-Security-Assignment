@@ -54,7 +54,7 @@ def Rail_fenceAlgorithm():
 
     print('Decode with Rail_fence Cipher with Score:')
 
-    print(_decrypt_withscore.decrypt_Product(ciphertext))
+    print(_decrypt_withscore.decrypt_Rail_fence(ciphertext))
 
     end = timeit.default_timer()
 
@@ -65,7 +65,7 @@ def Rail_fenceAlgorithm():
     begin = timeit.default_timer()
 
     print('Decode with Rail_fence Cipher with English Dictionary:')
-    print(_decrypt_withEngDic.decrypt_Product(ciphertext))
+    print(_decrypt_withEngDic.decrypt_Rail_fence(ciphertext))
 
     end = timeit.default_timer()
 

@@ -1,15 +1,12 @@
 import sys
-import math
 import timeit
 from collections import Counter
-import random
 from caesarCipher import Caesar
 from rail_fenceCipher import Rail_fence
 from encrypt import Encrypt
 from decrypt_withscore import Decrypt_withscore
 from decrypt_withEngDic import Decrypt_withEngDic
 from decrypt_withcharacter_phrase import Decrypt_withcharacter_phrase
-import numpy as np
 
 # run code: python3 main.py < input.txt
 

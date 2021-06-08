@@ -1,8 +1,6 @@
 from caesarCipher import Caesar
 from rail_fenceCipher import Rail_fence
-from read_english_dictionary import english_words
 # from english_words import english_words_set
-import re 
 
 ONE_LETTERS = ['e', 't', 'a', 'o', 'i', 'n', 's', 'h', 'r', 'd', 'l', 'u']
 TWO_LETTERS = [
@@ -24,9 +22,6 @@ class Decrypt_withcharacter_phrase:
     def __init__(self, alphabet):
         self.alphabet = alphabet
 
-    def isEnglishWord(self, word):
-        return word.lower() in english_words
-    
     def get_english_score(self, words):
         score = 0
         plaint_text = str.lower(words)
@@ -58,8 +53,8 @@ class Decrypt_withcharacter_phrase:
             candidates.append(result) 
 
         candidates.sort(key=lambda c: c['score'], reverse=True)
-        for x in candidates:
-            print(x)
+        # for x in candidates:
+        #     print(x)
         return candidates[0]
 
     def decrypt_Rail_fence(self, ciphertext):

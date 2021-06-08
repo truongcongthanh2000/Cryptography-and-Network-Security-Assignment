@@ -1,111 +1,58 @@
 53
-Plaintext Input = I am a student at Ho Chi Minh University of Technology
-keyCaesar Input = 46
-keyRail_fence Input = 26
+Plaintext Input = Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account.
+keyCaesar Input = 12
+keyRail_fence Input = 14
 
 --------------------------------------------------------------------------------------
 Encode with Caesar Cipher:
-ciphertext =  BTUfTUTlmnXYgmTUmTAhTvabTFbgaTNgboYklbmrThZTMYWagheh r
+ciphertext =  XqF’ElEmKlmzlmEBuDuzslIDuFqDluElIADwuzslAzlmlEFADK.letquDlsAmxluEl10,000lIADpE.lRADlFtuElqJmyBxq,lFtqlIDuFqDlGEqElSAAsxqlPAoE.lUrlFtqlIDuFqDlrAxxAIElFtqlFKBuomxlymzGEoDuBFlrADymFl–l12BFlOmxunDulrAzFlIuFtlpAGnxqlEBmouzsl–lFtqKlIuxxltmHqlmlEtADFlEFADKlFtmFluElmBBDAJuymFqxKl34lBmsqE.lUrlFtmFlIDuFqDlIDuFqElml50,000-IADplzAHqx,lFtqlFAFmxlymzGEoDuBFlBmsqloAGzFlIuxxlnqlmnAGFl172lBmsqE.lTAIqHqD,lFtmFlpAqElzAFlFmwqluzFAlmooAGzFlFtqlEFADKlnquzslnDAwqzlpAIzluzFAlotmBFqDElADlFtqlGEqlArlxuzqlnDqmwE.letqDqrADq,lFtqlBmsqloAGzFlrADlAzql50,000-IADplzAHqxlIuxxlHqDKlxuwqxKlpurrqDlrDAylFtqlBmsqloAGzFlArlmzAFtqDlzAHqxlIuFtlFtqlEmyqlIADploAGzFlEuzoqlFtqlnAAw'ElxmKAGFlIuxxltmHqlFAlnqlFmwqzluzFAlmooAGzF.
 
 Decode with Caesar Cipher with Letter Frequency:
-{'key': 46, 'score': 4.092225999999999, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Caesar Cipher with Letter Frequency = 0.0030945
+{'key': 12, 'score': 49.664626799999965, 'plaintext': "Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account."}
+Time execute Decode with Caesar Cipher with Letter Frequency = 0.05243369999999997
 
 Decode with Caesar Cipher with Character Phrase:
-{'key': 20, 'score': 3.6666666666666665, 'plaintext': 'hzAMzAzSTUDENTzATzgOzbHIzlINHztNIVERSITYzOFzsECHNOLOGY'}
-{'key': 46, 'score': 3.6666666666666665, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-{'key': 1, 'score': 2.6666666666666665, 'plaintext': 'ASTeSTSklmWXflSTlSzgSu aSEaf SMfanXjkalqSgYSLXV fgdgZq'}
-{'key': 27, 'score': 2.0, 'plaintext': 'astFstsLMNwxGMstMs HsVABseBGAsmGBOxKLBMRsHyslxvAGHEHzR'}
-{'key': 19, 'score': 1.9999999999999998, 'plaintext': 'iABNABATUVEFOUABUAhPAcIJAmJOIAuOJWFSTJUZAPGAtFDIOPMPHZ'}
-{'key': 26, 'score': 1.9999999999999998, 'plaintext': 'btuGtutMNOxyHNtuNtaItWBCtfCHBtnHCPyLMCNStIztmywBHIFIAS'}
-{'key': 45, 'score': 1.9999999999999998, 'plaintext': 'JabnabatuvefouabuaIpaDijaNjoiaVojwfstjuzapgaUfdiopmphz'}
-{'key': 34, 'score': 1.6666666666666665, 'plaintext': 'UlmylmlEFGpqzFlmFlTAlOtulYuztlfzuHqDEuFKlArleqotzAxAsK'}
-{'key': 0, 'score': 1.3333333333333333, 'plaintext': 'BTUfTUTlmnXYgmTUmTAhTvabTFbgaTNgboYklbmrThZTMYWagheh r'}
-{'key': 7, 'score': 1.3333333333333333, 'plaintext': 'uMNZMNMefgQR fMNfMtaMoUVMyV UMG VhRdeVfkMaSMFRPU aYaTk'}
-{'key': 16, 'score': 1.3333333333333333, 'plaintext': 'lDEQDEDWXYHIRXDEXDkSDfLMDpMRLDxRMZIVWMXbDSJDwIGLRSPSKb'}
-{'key': 24, 'score': 1.3333333333333333, 'plaintext': 'dvwIvwvOPQzAJPvwPvcKvYDEvhEJDvpJERANOEPUvKBvoAyDJKHKCU'}
-{'key': 25, 'score': 1.3333333333333333, 'plaintext': 'cuvHuvuNOPyzIOuvOubJuXCDugDICuoIDQzMNDOTuJAunzxCIJGJBT'}
-{'key': 31, 'score': 1.3333333333333333, 'plaintext': 'XopBopoHIJstCIopIoWDoRwxoaxCwoiCxKtGHxINoDuohtrwCDADvN'}
-{'key': 40, 'score': 1.3333333333333333, 'plaintext': 'OfgsfgfyzAjktzfgzfNufInofSotnf toBkxyozEfulfZkinturumE'}
-{'key': 41, 'score': 1.3333333333333333, 'plaintext': 'NefrefexyzijsyefyeMteHmneRnsmeZsnAjwxnyDetkeYjhmstqtlD'}
-{'key': 42, 'score': 1.3333333333333333, 'plaintext': 'MdeqdedwxyhirxdexdLsdGlmdQmrldYrmzivwmxCdsjdXiglrspskC'}
-{'key': 6, 'score': 1.0, 'plaintext': 'vNO NONfghRSagNOgNubNpVWNzWaVNHaWiSefWglNbTNGSQVabZbUl'}
-{'key': 8, 'score': 1.0, 'plaintext': 'tLMYLMLdefPQZeLMeLs LnTULxUZTLFZUgQcdUejL RLEQOTZ X Sj'}
-{'key': 14, 'score': 1.0, 'plaintext': 'nFGSFGFYZ JKTZFGZFmUFhNOFrOTNFzTOaKXYOZdFULFyKINTURUMd'}
-{'key': 28, 'score': 1.0, 'plaintext': ' rsErsrKLMvwFLrsLrZGrUzArdAFzrlFANwJKALQrGxrkwuzFGDGyQ'}
-{'key': 35, 'score': 1.0, 'plaintext': 'TklxklkDEFopyEklEkSzkNstkXtyskeytGpCDtEJkzqkdpnsyzwzrJ'}
-{'key': 50, 'score': 1.0, 'plaintext': 'EWXiWXWopq ajpWXpWDkWydeWIejdWQjeranoepuWkbWPaZdjkhkcu'}
-{'key': 2, 'score': 0.6666666666666666, 'plaintext': 'zRSdRSRjklVWekRSkRyfRtZ RD eZRLe mWij kpRfXRKWUZefcfYp'}
-{'key': 5, 'score': 0.6666666666666666, 'plaintext': 'wOPaOPOghiSTbhOPhOvcOqWXOAXbWOIbXjTfgXhmOcUOHTRWbc cVm'}
-{'key': 9, 'score': 0.6666666666666666, 'plaintext': 'sKLXKLKcdeOPYdKLdKrZKmSTKwTYSKEYTfPbcTdiKZQKDPNSYZWZRi'}
-{'key': 13, 'score': 0.6666666666666666, 'plaintext': 'oGHTGHGZ aKLU GH GnVGiOPGsPUOGAUPbLYZP eGVMGzLJOUVSVNe'}
-{'key': 15, 'score': 0.6666666666666666, 'plaintext': 'mEFREFEXYZIJSYEFYElTEgMNEqNSMEySN JWXNYcETKExJHMSTQTLc'}
-{'key': 32, 'score': 0.6666666666666666, 'plaintext': 'WnoAnonGHIrsBHnoHnVCnQvwn wBvnhBwJsFGwHMnCtngsqvBCzCuM'}
-{'key': 36, 'score': 0.6666666666666666, 'plaintext': 'SjkwjkjCDEnoxDjkDjRyjMrsjWsxrjdxsFoBCsDIjypjcomrxyvyqI'}
-{'key': 37, 'score': 0.6666666666666666, 'plaintext': 'RijvijiBCDmnwCijCiQxiLqriVrwqicwrEnABrCHixoibnlqwxuxpH'}
-{'key': 38, 'score': 0.6666666666666666, 'plaintext': 'QhiuhihABClmvBhiBhPwhKpqhUqvphbvqDmzAqBGhwnhamkpvwtwoG'}
-{'key': 39, 'score': 0.6666666666666666, 'plaintext': 'PghtghgzABkluAghAgOvgJopgTpuogaupClyzpAFgvmg ljouvsvnF'}
-{'key': 51, 'score': 0.6666666666666666, 'plaintext': 'DVWhVWVnopZ ioVWoVCjVxcdVHdicVPidq mndotVjaVO Ycijgjbt'}
-{'key': 3, 'score': 0.3333333333333333, 'plaintext': 'yQRcQRQijkUVdjQRjQxeQsYZQCZdYQKdZlVhiZjoQeWQJVTYdebeXo'}
-{'key': 4, 'score': 0.3333333333333333, 'plaintext': 'xPQbPQPhijTUciPQiPwdPrXYPBYcXPJcYkUghYinPdVPIUSXcdadWn'}
-{'key': 11, 'score': 0.3333333333333333, 'plaintext': 'qIJVIJIabcMNWbIJbIpXIkQRIuRWQICWRdN aRbgIXOIBNLQWXUXPg'}
-{'key': 12, 'score': 0.3333333333333333, 'plaintext': 'pHIUHIH abLMVaHIaHoWHjPQHtQVPHBVQcMZ QafHWNHAMKPVWTWOf'}
-{'key': 21, 'score': 0.3333333333333333, 'plaintext': 'gyzLyzyRSTCDMSyzSyfNyaGHykHMGysMHUDQRHSXyNEyrDBGMNKNFX'}
-{'key': 29, 'score': 0.3333333333333333, 'plaintext': 'ZqrDqrqJKLuvEKqrKqYFqTyzqczEyqkEzMvIJzKPqFwqjvtyEFCFxP'}
-{'key': 30, 'score': 0.3333333333333333, 'plaintext': 'YpqCpqpIJKtuDJpqJpXEpSxypbyDxpjDyLuHIyJOpEvpiusxDEBEwO'}
-{'key': 33, 'score': 0.3333333333333333, 'plaintext': 'VmnzmnmFGHqrAGmnGmUBmPuvmZvAumgAvIrEFvGLmBsmfrpuAByBtL'}
-{'key': 47, 'score': 0.3333333333333333, 'plaintext': 'HZ lZ ZrstcdmsZ sZGnZBghZLhmgZTmhudqrhsxZneZSdbgmnknfx'}
-{'key': 52, 'score': 0.3333333333333333, 'plaintext': 'CUVgUVUmnoYZhnUVnUBiUwbcUGchbUOhcpZlmcnsUi UNZXbhifias'}
-{'key': 10, 'score': 0.0, 'plaintext': 'rJKWJKJbcdNOXcJKcJqYJlRSJvSXRJDXSeOabSchJYPJCOMRXYVYQh'}
-{'key': 17, 'score': 0.0, 'plaintext': 'kCDPCDCVWXGHQWCDWCjRCeKLCoLQKCwQLYHUVLWaCRICvHFKQRORJa'}
-{'key': 18, 'score': 0.0, 'plaintext': 'jBCOBCBUVWFGPVBCVBiQBdJKBnKPJBvPKXGTUKV BQHBuGEJPQNQI '}
-{'key': 22, 'score': 0.0, 'plaintext': 'fxyKxyxQRSBCLRxyRxeMx FGxjGLFxrLGTCPQGRWxMDxqCAFLMJMEW'}
-{'key': 23, 'score': 0.0, 'plaintext': 'ewxJwxwPQRABKQwxQwdLwZEFwiFKEwqKFSBOPFQVwLCwpBzEKLILDV'}
-{'key': 43, 'score': 0.0, 'plaintext': 'LcdpcdcvwxghqwcdwcKrcFklcPlqkcXqlyhuvlwBcricWhfkqrorjB'}
-{'key': 44, 'score': 0.0, 'plaintext': 'KbcobcbuvwfgpvbcvbJqbEjkbOkpjbWpkxgtukvAbqhbVgejpqnqiA'}
-{'key': 48, 'score': 0.0, 'plaintext': 'GYZkYZYqrsbclrYZrYFmYAfgYKglfYSlgtcpqgrwYmdYRcaflmjmew'}
-{'key': 49, 'score': 0.0, 'plaintext': 'FXYjXYXpqrabkqXYqXElXzefXJfkeXRkfsbopfqvXlcXQb eklildv'}
-{'key': 20, 'score': 3.6666666666666665, 'plaintext': 'hzAMzAzSTUDENTzATzgOzbHIzlINHztNIVERSITYzOFzsECHNOLOGY'}
-Time execute Decode with Caesar Cipher with Character Phrase = 0.0032967000000000413
+{'key': 12, 'score': 76.66666666666669, 'plaintext': "Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account."}
+Time execute Decode with Caesar Cipher with Character Phrase = 0.031384599999999985
 
 Decode with Caesar Cipher with English Dictionary:
-{'key': 46, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Caesar Cipher with English Dictionary = 0.0022870999999999864
+{'key': 12, 'score': 80, 'plaintext': "Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account."}
+Time execute Decode with Caesar Cipher with English Dictionary = 0.03778290000000001
 
-Time Caesar Cipher =  0.008715200000000034
+Time Caesar Cipher =  0.1216623
 
 --------------------------------------------------------------------------------------
 Encode with Rail Fence Cipher:
-ciphertext =  Il ooangmhy cae Ts tfuod eyntti sarte vHion UC hhin iM
+ciphertext =  LeT.iti2leph-u  ckterl  coietr hs rt hpc1pbev prta0wnsea,tacoe hhro ilmtrn oyu nti .edFwefeya tu aaao t0oacbbrh ornreTefow oheoduatnt’riyiro rI tl– osh  xf 0rmr oeaoub o  f n vrehvrnl eoswsrrore  w   Cdp ssiIw,d iluvttn d u.otelef teot wk    o w hu.remta alhim r0 lplte ntgosssrn er polw siaasgwtg ttssihaalhclo a.i5nati wdi nwrekeu5vyran  s'ltcanoso0h ecttnmitiirttst ot w1oo tine a,o0o egaweikl cyir a0i,soe urbinwtaeeeavop 7Heehe toe c,nlfe imno eo rkal0se Drssorwg  hlgr etat2 skebipfrt 0 if ftacohbuaii  , lG  wcfi  ystya sl gn . a  na bhe0dkicohseba nnpnni0epoefor  t–et  pwe,eeupsntsythl eg0redo     vot sgos1xmololitfn hoy3 rt h oaeo trocie a-ol utteteet.a  aglpotr4itcgto npwynhh 
 
 Decode with Rail_fence Cipher with Letter Frequency:
-{'key': 3, 'score': 4.092226000000001, 'plaintext': 'Ieo lTns   tofUuooCda  enyhngthtmii hsnayr t ei cvMHai'}
-Time execute Decode with Rail_fence Cipher with Letter Frequency = 0.0074265000000000025
+{'key': 25, 'score': 49.66462680000009, 'plaintext': "L vntn rnusayreao2 aetlet ohp    vitrlr. rot0  cekpoo’eodrnhatkors, ollac-i en kkplsnc e rarayrtTetucioeumel t  aelafetoglfgo Gbl7c  ort. uyb ar.l0nbib oa  soyH0i br0n tu r h pseit'ap tw rrtw i nihoo eao.l reefwe ehtotodt0cr h wtilll     sctoe.or  ehw5c1aeDtfd–oye t3 eki r 0oan ifCfIreaiie,dn  d msanoits0 it  ener  c  so, oti tpntrFtt2rawel  eraistseoiyo  ttp.  phsfr oio a0osv–Tec lhofe rst sw0necw tswvhaw  oeeyfg, ehdgl ieofeese  yoshIwpwi  un tab,to yaa ea a lrae tlkwvhwahrpth   r, tgnc,bfhcs esegnlogunloleiotw e dn otr hhouhxl   trt0n gh npo photsspgbriwonetn i fe  p-ciao elotskm tm unnn1rthroxtn aenaeiesg uo0dal1upmaursvwoiutgeoti.ismc4 iioy0 ia eai5hs twmaotb er trsthsaviweet"}
+Time execute Decode with Rail_fence Cipher with Letter Frequency = 0.05490819999999996
 
 Decode with Rail_fence Cipher with Character Phrase:
-{'key': 6, 'score': 5.0, 'plaintext': 'InstHiit glmtionn fh yus  Uao ocdrCi t aoeeehMh y aTnv'}
-Time execute Decode with Rail_fence Cipher with Character Phrase = 0.006376900000000019
+{'key': 14, 'score': 76.66666666666669, 'plaintext': "Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account."}
+Time execute Decode with Rail_fence Cipher with Character Phrase = 0.04493069999999999
 
 Decode with Rail_fence Cipher with English Dictionary:
-{'key': 26, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Rail_fence Cipher with English Dictionary = 0.004668900000000087
+{'key': 14, 'score': 80, 'plaintext': "Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account."}
+Time execute Decode with Rail_fence Cipher with English Dictionary = 0.03900669999999995
 
-Time Rail Fence Cipher =  0.018517499999999965
+Time Rail Fence Cipher =  0.13888170000000005
 
 --------------------------------------------------------------------------------------
 Encode with product encryption Rail_fence x Caesar
-ciphertext =  BeThhUg farTWUYTMlTmZnhXTYrgmmbTlUkmYToAbhgTNvTaabgTbF
+ciphertext =  Xqe.uFu2xqBt-GllowFqDxlloAuqFDltElDFltBo1BnqHlBDFm0IzEqm,FmoAqlttDAluxyFDzlAKGlzFul.qpRIqrqKmlFGlmmmAlF0AmonnDtlADzDqeqrAIlAtqApGmFzF’DuKuDAlDUlFx–lAEtllJrl0DyDlAqmAGnlAllrlzlHDqtHDzxlqAEIEDDADqllIlllOpBlEEuUI,pluxGHFFzlplG.AFqxqrlFqAFlIwllllAlIltG.DqyFmlmxtuylD0lxBxFqlzFsAEEEDzlqDlBAxIlEummEsIFslFFEEutmmxtoxAlm.u5zmFulIpulzIDqwqG5HKDmzllE'xFomzAEA0tlqoFFzyuFuuDFFEFlAFlI1AAlFuzqlm,A0AlqsmIquwxloKuDlm0u,EAqlGDnuzIFmqqqmHABl7TqqtqlFAqlo,zxrqluyzAlqAlDwmx0EqlPDEEADIslltxsDlqFmF2lEwqnuBrDFl0lurlrFmoAtnGmuull,lxSllIorullKEFKmlExlszl.lmllzmlntq0pwuoAtEqnmlzzBzzu0qBAqrADllF–qFllBIq,qqGBEzFEKFtxlqs0DqpAlllllHAFlEsAE1JyAxAxuFrzltAK3lDFltlAmqAlFDAouqlm-AxlGFFqFqqF.mllmsxBAFD4uFosFAlzBIKzttl
 
 Decode with Rail_fence x Caesar Cipher with Letter Frequency:
-{'key': [3, 46], 'score': 4.092226000000001, 'plaintext': 'Ieo lTns   tofUuooCda  enyhngthtmii hsnayr t ei cvMHai'}
-Time execute Decode with Rail_fence x Caesar Cipher with Letter Frequency = 0.2896529
+{'key': [25, 12], 'score': 49.66462680000009, 'plaintext': "L vntn rnusayreao2 aetlet ohp    vitrlr. rot0  cekpoo’eodrnhatkors, ollac-i en kkplsnc e rarayrtTetucioeumel t  aelafetoglfgo Gbl7c  ort. uyb ar.l0nbib oa  soyH0i br0n tu r h pseit'ap tw rrtw i nihoo eao.l reefwe ehtotodt0cr h wtilll     sctoe.or  ehw5c1aeDtfd–oye t3 eki r 0oan ifCfIreaiie,dn  d msanoits0 it  ener  c  so, oti tpntrFtt2rawel  eraistseoiyo  ttp.  phsfr oio a0osv–Tec lhofe rst sw0necw tswvhaw  oeeyfg, ehdgl ieofeese  yoshIwpwi  un tab,to yaa ea a lrae tlkwvhwahrpth   r, tgnc,bfhcs esegnlogunloleiotw e dn otr hhouhxl   trt0n gh npo photsspgbriwonetn i fe  p-ciao elotskm tm unnn1rthroxtn aenaeiesg uo0dal1upmaursvwoiutgeoti.ismc4 iioy0 ia eai5hs twmaotb er trsthsaviweet"}
+Time execute Decode with Rail_fence x Caesar Cipher with Letter Frequency = 2.9793544
 
 Decode with Rail_fence x Caesar Cipher Cipher with Character Phrase:
-{'key': 46, 'score': 5.0, 'plaintext': 'InstHiit glmtionn fh yus  Uao ocdrCi t aoeeehMh y aTnv'}
-Time execute Decode with Rail_fence x Caesar Cipher with Character Phrase = 0.35194059999999994
+{'key': 12, 'score': 76.66666666666669, 'plaintext': "Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account."}
+Time execute Decode with Rail_fence x Caesar Cipher with Character Phrase = 1.8107401999999997
 
 Decode with Rail_fence x Caesar Cipher with English Dictionary:
-{'key': 46, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Rail_fence x Caesar Cipher with English Dictionary = 0.23067159999999998
+{'key': 12, 'score': 80, 'plaintext': "Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account."}
+Time execute Decode with Rail_fence x Caesar Cipher with English Dictionary = 1.7085021999999999
 
-Time Rail Rail_fence x Caesar Cipher =  0.872318
+Time Rail Rail_fence x Caesar Cipher =  6.4986834

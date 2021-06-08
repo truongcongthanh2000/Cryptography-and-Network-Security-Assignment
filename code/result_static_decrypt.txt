@@ -1,9 +1,15 @@
 Decoding algorithm measurement test with 50 times, the number of english words each time is 30
 -------------------------------------------------------------------------------------------
-Decrypt with score: 
+Decrypt with Letter Frequency: 
 Probability of success in Caesar Cipher = 1.0000000000
-Probability of success in Rail_fence Cipher = 0.0200000000
-Probability of success in Rail_fence x Caesar Cipher = 0.0200000000
+Probability of success in Rail_fence Cipher = 0.0000000000
+Probability of success in Rail_fence x Caesar Cipher = 0.0000000000
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+Decrypt with Character Phrase: 
+Probability of success in Caesar Cipher = 0.7000000000
+Probability of success in Rail_fence Cipher = 0.9400000000
+Probability of success in Rail_fence x Caesar Cipher = 0.6400000000
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 Decrypt with English Dictionary: 
@@ -14,10 +20,16 @@ Probability of success in Rail_fence x Caesar Cipher = 1.0000000000
 
 Decoding algorithm measurement test with 15 times, the number of english words each time is 200
 -------------------------------------------------------------------------------------------
-Decrypt with score: 
+Decrypt with Letter Frequency: 
 Probability of success in Caesar Cipher = 1.0000000000
 Probability of success in Rail_fence Cipher = 0.0000000000
 Probability of success in Rail_fence x Caesar Cipher = 0.0000000000
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+Decrypt with Character Phrase: 
+Probability of success in Caesar Cipher = 0.9333333333
+Probability of success in Rail_fence Cipher = 1.0000000000
+Probability of success in Rail_fence x Caesar Cipher = 0.9333333333
 -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 Decrypt with English Dictionary: 

@@ -26,7 +26,7 @@ list_ciphertext_small = [
 # list_ciphertext.append(some ciphertext)
 # ciphertext = random.choice(list_ciphertext)
 
-ciphertext = random.choice(list_ciphertext_small)
+ciphertext = random.choice(list_ciphertext)
 
 print(ciphertext)
 keyCaesar = random.randint(0, len(alphabet) - 1)

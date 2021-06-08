@@ -1,3 +1,3 @@
-I am a student at Ho Chi Minh University of Technology
-46
-26
+Let’s say an aspiring writer is working on a story. Their goal is 10,000 words. For this example, the writer uses Google Docs. If the writer follows the typical manuscript format – 12pt Calibri font with double spacing – they will have a short story that is approximately 34 pages. If that writer writes a 50,000-word novel, the total manuscript page count will be about 172 pages. However, that does not take into account the story being broken down into chapters or the use of line breaks. Therefore, the page count for one 50,000-word novel will very likely differ from the page count of another novel with the same word count since the book's layout will have to be taken into account.
+12
+14

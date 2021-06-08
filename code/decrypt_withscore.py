@@ -44,8 +44,8 @@ class Decrypt_withscore:
             candidates.append(result) 
             
         candidates.sort(key=lambda c: c['score'], reverse=True)
-        # for x in candidates:
-        #     print(x)
+        for x in candidates:
+            print(x)
         return candidates[0]
 
     def decrypt_Rail_fence(self, ciphertext):

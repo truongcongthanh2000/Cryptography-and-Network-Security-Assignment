@@ -21,16 +21,12 @@ list_ciphertext = [
 ]
 
 list_ciphertext_small = [
-    'Cryptography',
-    'and',
-    'Network',
-    'Security',
-    'HCMUT'
+    'I am a student at Ho Chi Minh University of Technology'
 ]
 # list_ciphertext.append(some ciphertext)
 # ciphertext = random.choice(list_ciphertext)
 
-ciphertext = random.choice(list_ciphertext)
+ciphertext = random.choice(list_ciphertext_small)
 
 print(ciphertext)
 keyCaesar = random.randint(0, len(alphabet) - 1)

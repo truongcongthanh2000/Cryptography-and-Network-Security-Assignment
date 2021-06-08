@@ -2,6 +2,7 @@ from caesarCipher import Caesar
 from rail_fenceCipher import Rail_fence
 from read_english_dictionary import english_words
 # from english_words import english_words_set
+import re 
 
 LIMITS = 50
 
@@ -13,8 +14,9 @@ class Decrypt_withEngDic:
         return word.lower() in english_words
     
     def get_english_score(self, words):
+        words_with_nospecial = re.sub('[^a-zA-Z0-9\n]', ' ', words)
         score = 0
-        for word in words.split():
+        for word in words_with_nospecial.split():
             score += self.isEnglishWord(word)
 
         return score
@@ -38,8 +40,8 @@ class Decrypt_withEngDic:
             candidates.append(result) 
 
         candidates.sort(key=lambda c: c['score'], reverse=True)
-        # for x in candidates:
-        #     print(x)
+        for x in candidates:
+            print(x)
         return candidates[0]
 
     def decrypt_Rail_fence(self, ciphertext):

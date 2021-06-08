@@ -7,9 +7,10 @@
 |Trần Xuân Hoàng|1812302|
 |Trương Công Thành|1810766|
 
-## Run code 
+## Usage
     open terminal and type
     ./bash.sh
+    # if your default python is python 2, you need to change code in bash.sh, replace python to python3.
     
 ## Generate Input 
 
@@ -22,4 +23,13 @@
     $ python gen.py > input.txt
     # with small ciphertext: ciphertext = random.choice(list_ciphertext_small)
     # with large ciphertext: ciphertext = random.choice(list_ciphertext)
+
+## Run encrypt, decrypt
+    $ python main.py < input.txt > output.txt
+    # the result is put into the file output.txt, you can view it.
+
+## Run the decrypt test statistics file.
+    $ python static_decrypt.py > result_static_decrypt.txt
+    # the result is put into the file result_static_decrypt.txt, you can view it.
+
 

@@ -1,152 +1,111 @@
 53
 Plaintext Input = I am a student at Ho Chi Minh University of Technology
-keyCaesar Input = 16
-keyRail_fence Input = 10
+keyCaesar Input = 46
+keyRail_fence Input = 26
 
----------------------------------------------------
+--------------------------------------------------------------------------------------
 Encode with Caesar Cipher:
-ciphertext =  YpqCpqpIJKtuDJpqJpXEpSxypbyDxpjDyLuHIyJOpEvpiusxDEBEwO
+ciphertext =  BTUfTUTlmnXYgmTUmTAhTvabTFbgaTNgboYklbmrThZTMYWagheh r
 
-Decode with Caesar Cipher with Score:
-{'key': 16, 'score': 4.092225999999999, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-{'key': 31, 'score': 2.4926242, 'plaintext': 'tLMYLMLdefPQZeLMeLs LnTULxUZTLFZUgQcdUejL RLEQOTZ X Sj'}
-{'key': 11, 'score': 2.4885866000000005, 'plaintext': 'NefrefexyzijsyefyeMteHmneRnsmeZsnAjwxnyDetkeYjhmstqtlD'}
-{'key': 38, 'score': 2.4801376000000004, 'plaintext': 'mEFREFEXYZIJSYEFYElTEgMNEqNSMEySN JWXNYcETKExJHMSTQTLc'}
-{'key': 30, 'score': 2.380224400000001, 'plaintext': 'uMNZMNMefgQR fMNfMtaMoUVMyV UMG VhRdeVfkMaSMFRPU aYaTk'}
-{'key': 24, 'score': 2.3626373, 'plaintext': 'ASTeSTSklmWXflSTlSzgSu aSEaf SMfanXjkalqSgYSLXV fgdgZq'}
-{'key': 25, 'score': 2.3614274, 'plaintext': 'zRSdRSRjklVWekRSkRyfRtZ RD eZRLe mWij kpRfXRKWUZefcfYp'}
-{'key': 36, 'score': 2.3178077000000004, 'plaintext': 'oGHTGHGZ aKLU GH GnVGiOPGsPUOGAUPbLYZP eGVMGzLJOUVSVNe'}
-{'key': 43, 'score': 2.2622458999999995, 'plaintext': 'hzAMzAzSTUDENTzATzgOzbHIzlINHztNIVERSITYzOFzsECHNOLOGY'}
-{'key': 23, 'score': 2.2533852000000003, 'plaintext': 'BTUfTUTlmnXYgmTUmTAhTvabTFbgaTNgboYklbmrThZTMYWagheh r'}
-{'key': 50, 'score': 2.2197516000000004, 'plaintext': 'astFstsLMNwxGMstMs HsVABseBGAsmGBOxKLBMRsHyslxvAGHEHzR'}
-{'key': 49, 'score': 2.2140874000000004, 'plaintext': 'btuGtutMNOxyHNtuNtaItWBCtfCHBtnHCPyLMCNStIztmywBHIFIAS'}
-{'key': 29, 'score': 2.144871599999999, 'plaintext': 'vNO NONfghRSagNOgNubNpVWNzWaVNHaWiSefWglNbTNGSQVabZbUl'}
-{'key': 1, 'score': 2.0791932, 'plaintext': 'XopBopoHIJstCIopIoWDoRwxoaxCwoiCxKtGHxINoDuohtrwCDADvN'}
-{'key': 42, 'score': 2.0774662, 'plaintext': 'iABNABATUVEFOUABUAhPAcIJAmJOIAuOJWFSTJUZAPGAtFDIOPMPHZ'}
-{'key': 35, 'score': 2.0660600000000002, 'plaintext': 'pHIUHIH abLMVaHIaHoWHjPQHtQVPHBVQcMZ QafHWNHAMKPVWTWOf'}
-{'key': 17, 'score': 2.061267800000001, 'plaintext': 'HZ lZ ZrstcdmsZ sZGnZBghZLhmgZTmhudqrhsxZneZSdbgmnknfx'}
-{'key': 10, 'score': 2.0153108000000004, 'plaintext': 'OfgsfgfyzAjktzfgzfNufInofSotnf toBkxyozEfulfZkinturumE'}
-{'key': 28, 'score': 2.012314000000001, 'plaintext': 'wOPaOPOghiSTbhOPhOvcOqWXOAXbWOIbXjTfgXhmOcUOHTRWbc cVm'}
-{'key': 15, 'score': 2.0087939, 'plaintext': 'JabnabatuvefouabuaIpaDijaNjoiaVojwfstjuzapgaUfdiopmphz'}
-{'key': 21, 'score': 1.9971889000000003, 'plaintext': 'DVWhVWVnopZ ioVWoVCjVxcdVHdicVPidq mndotVjaVO Ycijgjbt'}
-{'key': 2, 'score': 1.9861324, 'plaintext': 'WnoAnonGHIrsBHnoHnVCnQvwn wBvnhBwJsFGwHMnCtngsqvBCzCuM'}
-{'key': 4, 'score': 1.8673509999999998, 'plaintext': 'UlmylmlEFGpqzFlmFlTAlOtulYuztlfzuHqDEuFKlArleqotzAxAsK'}
-{'key': 37, 'score': 1.8258048000000002, 'plaintext': 'nFGSFGFYZ JKTZFGZFmUFhNOFrOTNFzTOaKXYOZdFULFyKINTURUMd'}
-{'key': 51, 'score': 1.8031863000000001, 'plaintext': ' rsErsrKLMvwFLrsLrZGrUzArdAFzrlFANwJKALQrGxrkwuzFGDGyQ'}
-{'key': 20, 'score': 1.7899192000000002, 'plaintext': 'EWXiWXWopq ajpWXpWDkWydeWIejdWQjeranoepuWkbWPaZdjkhkcu'}
-{'key': 22, 'score': 1.7786585999999998, 'plaintext': 'CUVgUVUmnoYZhnUVnUBiUwbcUGchbUOhcpZlmcnsUi UNZXbhifias'}
-{'key': 5, 'score': 1.7688351000000004, 'plaintext': 'TklxklkDEFopyEklEkSzkNstkXtyskeytGpCDtEJkzqkdpnsyzwzrJ'}
-{'key': 9, 'score': 1.7454851999999998, 'plaintext': 'PghtghgzABkluAghAgOvgJopgTpuogaupClyzpAFgvmg ljouvsvnF'}
-{'key': 7, 'score': 1.7206366000000004, 'plaintext': 'RijvijiBCDmnwCijCiQxiLqriVrwqicwrEnABrCHixoibnlqwxuxpH'}
-{'key': 34, 'score': 1.7090641000000002, 'plaintext': 'qIJVIJIabcMNWbIJbIpXIkQRIuRWQICWRdN aRbgIXOIBNLQWXUXPg'}
-{'key': 12, 'score': 1.6833802000000002, 'plaintext': 'MdeqdedwxyhirxdexdLsdGlmdQmrldYrmzivwmxCdsjdXiglrspskC'}
-{'key': 39, 'score': 1.6697773000000007, 'plaintext': 'lDEQDEDWXYHIRXDEXDkSDfLMDpMRLDxRMZIVWMXbDSJDwIGLRSPSKb'}
-{'key': 44, 'score': 1.6211123000000003, 'plaintext': 'gyzLyzyRSTCDMSyzSyfNyaGHykHMGysMHUDQRHSXyNEyrDBGMNKNFX'}
-{'key': 32, 'score': 1.6100726, 'plaintext': 'sKLXKLKcdeOPYdKLdKrZKmSTKwTYSKEYTfPbcTdiKZQKDPNSYZWZRi'}
-{'key': 48, 'score': 1.5600037, 'plaintext': 'cuvHuvuNOPyzIOuvOubJuXCDugDICuoIDQzMNDOTuJAunzxCIJGJBT'}
-{'key': 3, 'score': 1.5581194000000003, 'plaintext': 'VmnzmnmFGHqrAGmnGmUBmPuvmZvAumgAvIrEFvGLmBsmfrpuAByBtL'}
-{'key': 47, 'score': 1.5509528000000004, 'plaintext': 'dvwIvwvOPQzAJPvwPvcKvYDEvhEJDvpJERANOEPUvKBvoAyDJKHKCU'}
-{'key': 8, 'score': 1.5245409, 'plaintext': 'QhiuhihABClmvBhiBhPwhKpqhUqvphbvqDmzAqBGhwnhamkpvwtwoG'}
-{'key': 0, 'score': 1.4815325999999998, 'plaintext': 'YpqCpqpIJKtuDJpqJpXEpSxypbyDxpjDyLuHIyJOpEvpiusxDEBEwO'}
-{'key': 40, 'score': 1.4453961, 'plaintext': 'kCDPCDCVWXGHQWCDWCjRCeKLCoLQKCwQLYHUVLWaCRICvHFKQRORJa'}
-{'key': 45, 'score': 1.4202979999999998, 'plaintext': 'fxyKxyxQRSBCLRxyRxeMx FGxjGLFxrLGTCPQGRWxMDxqCAFLMJMEW'}
-{'key': 41, 'score': 1.3932803, 'plaintext': 'jBCOBCBUVWFGPVBCVBiQBdJKBnKPJBvPKXGTUKV BQHBuGEJPQNQI '}
-{'key': 19, 'score': 1.3892817, 'plaintext': 'FXYjXYXpqrabkqXYqXElXzefXJfkeXRkfsbopfqvXlcXQb eklildv'}
-{'key': 6, 'score': 1.3746577000000006, 'plaintext': 'SjkwjkjCDEnoxDjkDjRyjMrsjWsxrjdxsFoBCsDIjypjcomrxyvyqI'}
-{'key': 18, 'score': 1.3606678999999997, 'plaintext': 'GYZkYZYqrsbclrYZrYFmYAfgYKglfYSlgtcpqgrwYmdYRcaflmjmew'}
-{'key': 46, 'score': 1.3584766000000001, 'plaintext': 'ewxJwxwPQRABKQwxQwdLwZEFwiFKEwqKFSBOPFQVwLCwpBzEKLILDV'}
-{'key': 26, 'score': 1.3474610000000002, 'plaintext': 'yQRcQRQijkUVdjQRjQxeQsYZQCZdYQKdZlVhiZjoQeWQJVTYdebeXo'}
-{'key': 27, 'score': 1.3364211, 'plaintext': 'xPQbPQPhijTUciPQiPwdPrXYPBYcXPJcYkUghYinPdVPIUSXcdadWn'}
-{'key': 33, 'score': 1.3172240000000008, 'plaintext': 'rJKWJKJbcdNOXcJKcJqYJlRSJvSXRJDXSeOabSchJYPJCOMRXYVYQh'}
-{'key': 13, 'score': 1.2367890000000004, 'plaintext': 'LcdpcdcvwxghqwcdwcKrcFklcPlqkcXqlyhuvlwBcricWhfkqrorjB'}
-{'key': 14, 'score': 1.1756735999999999, 'plaintext': 'KbcobcbuvwfgpvbcvbJqbEjkbOkpjbWpkxgtukvAbqhbVgejpqnqiA'}
-{'key': 52, 'score': 1.1723805999999999, 'plaintext': 'ZqrDqrqJKLuvEKqrKqYFqTyzqczEyqkEzMvIJzKPqFwqjvtyEFCFxP'}
-{'key': 16, 'score': 4.092225999999999, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Caesar Cipher with Score = 0.005243099999999945
+Decode with Caesar Cipher with Letter Frequency:
+{'key': 46, 'score': 4.092225999999999, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
+Time execute Decode with Caesar Cipher with Letter Frequency = 0.0030945
+
+Decode with Caesar Cipher with Character Phrase:
+{'key': 20, 'score': 3.6666666666666665, 'plaintext': 'hzAMzAzSTUDENTzATzgOzbHIzlINHztNIVERSITYzOFzsECHNOLOGY'}
+{'key': 46, 'score': 3.6666666666666665, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
+{'key': 1, 'score': 2.6666666666666665, 'plaintext': 'ASTeSTSklmWXflSTlSzgSu aSEaf SMfanXjkalqSgYSLXV fgdgZq'}
+{'key': 27, 'score': 2.0, 'plaintext': 'astFstsLMNwxGMstMs HsVABseBGAsmGBOxKLBMRsHyslxvAGHEHzR'}
+{'key': 19, 'score': 1.9999999999999998, 'plaintext': 'iABNABATUVEFOUABUAhPAcIJAmJOIAuOJWFSTJUZAPGAtFDIOPMPHZ'}
+{'key': 26, 'score': 1.9999999999999998, 'plaintext': 'btuGtutMNOxyHNtuNtaItWBCtfCHBtnHCPyLMCNStIztmywBHIFIAS'}
+{'key': 45, 'score': 1.9999999999999998, 'plaintext': 'JabnabatuvefouabuaIpaDijaNjoiaVojwfstjuzapgaUfdiopmphz'}
+{'key': 34, 'score': 1.6666666666666665, 'plaintext': 'UlmylmlEFGpqzFlmFlTAlOtulYuztlfzuHqDEuFKlArleqotzAxAsK'}
+{'key': 0, 'score': 1.3333333333333333, 'plaintext': 'BTUfTUTlmnXYgmTUmTAhTvabTFbgaTNgboYklbmrThZTMYWagheh r'}
+{'key': 7, 'score': 1.3333333333333333, 'plaintext': 'uMNZMNMefgQR fMNfMtaMoUVMyV UMG VhRdeVfkMaSMFRPU aYaTk'}
+{'key': 16, 'score': 1.3333333333333333, 'plaintext': 'lDEQDEDWXYHIRXDEXDkSDfLMDpMRLDxRMZIVWMXbDSJDwIGLRSPSKb'}
+{'key': 24, 'score': 1.3333333333333333, 'plaintext': 'dvwIvwvOPQzAJPvwPvcKvYDEvhEJDvpJERANOEPUvKBvoAyDJKHKCU'}
+{'key': 25, 'score': 1.3333333333333333, 'plaintext': 'cuvHuvuNOPyzIOuvOubJuXCDugDICuoIDQzMNDOTuJAunzxCIJGJBT'}
+{'key': 31, 'score': 1.3333333333333333, 'plaintext': 'XopBopoHIJstCIopIoWDoRwxoaxCwoiCxKtGHxINoDuohtrwCDADvN'}
+{'key': 40, 'score': 1.3333333333333333, 'plaintext': 'OfgsfgfyzAjktzfgzfNufInofSotnf toBkxyozEfulfZkinturumE'}
+{'key': 41, 'score': 1.3333333333333333, 'plaintext': 'NefrefexyzijsyefyeMteHmneRnsmeZsnAjwxnyDetkeYjhmstqtlD'}
+{'key': 42, 'score': 1.3333333333333333, 'plaintext': 'MdeqdedwxyhirxdexdLsdGlmdQmrldYrmzivwmxCdsjdXiglrspskC'}
+{'key': 6, 'score': 1.0, 'plaintext': 'vNO NONfghRSagNOgNubNpVWNzWaVNHaWiSefWglNbTNGSQVabZbUl'}
+{'key': 8, 'score': 1.0, 'plaintext': 'tLMYLMLdefPQZeLMeLs LnTULxUZTLFZUgQcdUejL RLEQOTZ X Sj'}
+{'key': 14, 'score': 1.0, 'plaintext': 'nFGSFGFYZ JKTZFGZFmUFhNOFrOTNFzTOaKXYOZdFULFyKINTURUMd'}
+{'key': 28, 'score': 1.0, 'plaintext': ' rsErsrKLMvwFLrsLrZGrUzArdAFzrlFANwJKALQrGxrkwuzFGDGyQ'}
+{'key': 35, 'score': 1.0, 'plaintext': 'TklxklkDEFopyEklEkSzkNstkXtyskeytGpCDtEJkzqkdpnsyzwzrJ'}
+{'key': 50, 'score': 1.0, 'plaintext': 'EWXiWXWopq ajpWXpWDkWydeWIejdWQjeranoepuWkbWPaZdjkhkcu'}
+{'key': 2, 'score': 0.6666666666666666, 'plaintext': 'zRSdRSRjklVWekRSkRyfRtZ RD eZRLe mWij kpRfXRKWUZefcfYp'}
+{'key': 5, 'score': 0.6666666666666666, 'plaintext': 'wOPaOPOghiSTbhOPhOvcOqWXOAXbWOIbXjTfgXhmOcUOHTRWbc cVm'}
+{'key': 9, 'score': 0.6666666666666666, 'plaintext': 'sKLXKLKcdeOPYdKLdKrZKmSTKwTYSKEYTfPbcTdiKZQKDPNSYZWZRi'}
+{'key': 13, 'score': 0.6666666666666666, 'plaintext': 'oGHTGHGZ aKLU GH GnVGiOPGsPUOGAUPbLYZP eGVMGzLJOUVSVNe'}
+{'key': 15, 'score': 0.6666666666666666, 'plaintext': 'mEFREFEXYZIJSYEFYElTEgMNEqNSMEySN JWXNYcETKExJHMSTQTLc'}
+{'key': 32, 'score': 0.6666666666666666, 'plaintext': 'WnoAnonGHIrsBHnoHnVCnQvwn wBvnhBwJsFGwHMnCtngsqvBCzCuM'}
+{'key': 36, 'score': 0.6666666666666666, 'plaintext': 'SjkwjkjCDEnoxDjkDjRyjMrsjWsxrjdxsFoBCsDIjypjcomrxyvyqI'}
+{'key': 37, 'score': 0.6666666666666666, 'plaintext': 'RijvijiBCDmnwCijCiQxiLqriVrwqicwrEnABrCHixoibnlqwxuxpH'}
+{'key': 38, 'score': 0.6666666666666666, 'plaintext': 'QhiuhihABClmvBhiBhPwhKpqhUqvphbvqDmzAqBGhwnhamkpvwtwoG'}
+{'key': 39, 'score': 0.6666666666666666, 'plaintext': 'PghtghgzABkluAghAgOvgJopgTpuogaupClyzpAFgvmg ljouvsvnF'}
+{'key': 51, 'score': 0.6666666666666666, 'plaintext': 'DVWhVWVnopZ ioVWoVCjVxcdVHdicVPidq mndotVjaVO Ycijgjbt'}
+{'key': 3, 'score': 0.3333333333333333, 'plaintext': 'yQRcQRQijkUVdjQRjQxeQsYZQCZdYQKdZlVhiZjoQeWQJVTYdebeXo'}
+{'key': 4, 'score': 0.3333333333333333, 'plaintext': 'xPQbPQPhijTUciPQiPwdPrXYPBYcXPJcYkUghYinPdVPIUSXcdadWn'}
+{'key': 11, 'score': 0.3333333333333333, 'plaintext': 'qIJVIJIabcMNWbIJbIpXIkQRIuRWQICWRdN aRbgIXOIBNLQWXUXPg'}
+{'key': 12, 'score': 0.3333333333333333, 'plaintext': 'pHIUHIH abLMVaHIaHoWHjPQHtQVPHBVQcMZ QafHWNHAMKPVWTWOf'}
+{'key': 21, 'score': 0.3333333333333333, 'plaintext': 'gyzLyzyRSTCDMSyzSyfNyaGHykHMGysMHUDQRHSXyNEyrDBGMNKNFX'}
+{'key': 29, 'score': 0.3333333333333333, 'plaintext': 'ZqrDqrqJKLuvEKqrKqYFqTyzqczEyqkEzMvIJzKPqFwqjvtyEFCFxP'}
+{'key': 30, 'score': 0.3333333333333333, 'plaintext': 'YpqCpqpIJKtuDJpqJpXEpSxypbyDxpjDyLuHIyJOpEvpiusxDEBEwO'}
+{'key': 33, 'score': 0.3333333333333333, 'plaintext': 'VmnzmnmFGHqrAGmnGmUBmPuvmZvAumgAvIrEFvGLmBsmfrpuAByBtL'}
+{'key': 47, 'score': 0.3333333333333333, 'plaintext': 'HZ lZ ZrstcdmsZ sZGnZBghZLhmgZTmhudqrhsxZneZSdbgmnknfx'}
+{'key': 52, 'score': 0.3333333333333333, 'plaintext': 'CUVgUVUmnoYZhnUVnUBiUwbcUGchbUOhcpZlmcnsUi UNZXbhifias'}
+{'key': 10, 'score': 0.0, 'plaintext': 'rJKWJKJbcdNOXcJKcJqYJlRSJvSXRJDXSeOabSchJYPJCOMRXYVYQh'}
+{'key': 17, 'score': 0.0, 'plaintext': 'kCDPCDCVWXGHQWCDWCjRCeKLCoLQKCwQLYHUVLWaCRICvHFKQRORJa'}
+{'key': 18, 'score': 0.0, 'plaintext': 'jBCOBCBUVWFGPVBCVBiQBdJKBnKPJBvPKXGTUKV BQHBuGEJPQNQI '}
+{'key': 22, 'score': 0.0, 'plaintext': 'fxyKxyxQRSBCLRxyRxeMx FGxjGLFxrLGTCPQGRWxMDxqCAFLMJMEW'}
+{'key': 23, 'score': 0.0, 'plaintext': 'ewxJwxwPQRABKQwxQwdLwZEFwiFKEwqKFSBOPFQVwLCwpBzEKLILDV'}
+{'key': 43, 'score': 0.0, 'plaintext': 'LcdpcdcvwxghqwcdwcKrcFklcPlqkcXqlyhuvlwBcricWhfkqrorjB'}
+{'key': 44, 'score': 0.0, 'plaintext': 'KbcobcbuvwfgpvbcvbJqbEjkbOkpjbWpkxgtukvAbqhbVgejpqnqiA'}
+{'key': 48, 'score': 0.0, 'plaintext': 'GYZkYZYqrsbclrYZrYFmYAfgYKglfYSlgtcpqgrwYmdYRcaflmjmew'}
+{'key': 49, 'score': 0.0, 'plaintext': 'FXYjXYXpqrabkqXYqXElXzefXJfkeXRkfsbopfqvXlcXQb eklildv'}
+{'key': 20, 'score': 3.6666666666666665, 'plaintext': 'hzAMzAzSTUDENTzATzgOzbHIzlINHztNIVERSITYzOFzsECHNOLOGY'}
+Time execute Decode with Caesar Cipher with Character Phrase = 0.0032967000000000413
 
 Decode with Caesar Cipher with English Dictionary:
-{'key': 16, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-{'key': 0, 'score': 0, 'plaintext': 'YpqCpqpIJKtuDJpqJpXEpSxypbyDxpjDyLuHIyJOpEvpiusxDEBEwO'}
-{'key': 1, 'score': 0, 'plaintext': 'XopBopoHIJstCIopIoWDoRwxoaxCwoiCxKtGHxINoDuohtrwCDADvN'}
-{'key': 2, 'score': 0, 'plaintext': 'WnoAnonGHIrsBHnoHnVCnQvwn wBvnhBwJsFGwHMnCtngsqvBCzCuM'}
-{'key': 3, 'score': 0, 'plaintext': 'VmnzmnmFGHqrAGmnGmUBmPuvmZvAumgAvIrEFvGLmBsmfrpuAByBtL'}
-{'key': 4, 'score': 0, 'plaintext': 'UlmylmlEFGpqzFlmFlTAlOtulYuztlfzuHqDEuFKlArleqotzAxAsK'}
-{'key': 5, 'score': 0, 'plaintext': 'TklxklkDEFopyEklEkSzkNstkXtyskeytGpCDtEJkzqkdpnsyzwzrJ'}
-{'key': 6, 'score': 0, 'plaintext': 'SjkwjkjCDEnoxDjkDjRyjMrsjWsxrjdxsFoBCsDIjypjcomrxyvyqI'}
-{'key': 7, 'score': 0, 'plaintext': 'RijvijiBCDmnwCijCiQxiLqriVrwqicwrEnABrCHixoibnlqwxuxpH'}
-{'key': 8, 'score': 0, 'plaintext': 'QhiuhihABClmvBhiBhPwhKpqhUqvphbvqDmzAqBGhwnhamkpvwtwoG'}
-{'key': 9, 'score': 0, 'plaintext': 'PghtghgzABkluAghAgOvgJopgTpuogaupClyzpAFgvmg ljouvsvnF'}
-{'key': 10, 'score': 0, 'plaintext': 'OfgsfgfyzAjktzfgzfNufInofSotnf toBkxyozEfulfZkinturumE'}
-{'key': 11, 'score': 0, 'plaintext': 'NefrefexyzijsyefyeMteHmneRnsmeZsnAjwxnyDetkeYjhmstqtlD'}
-{'key': 12, 'score': 0, 'plaintext': 'MdeqdedwxyhirxdexdLsdGlmdQmrldYrmzivwmxCdsjdXiglrspskC'}
-{'key': 13, 'score': 0, 'plaintext': 'LcdpcdcvwxghqwcdwcKrcFklcPlqkcXqlyhuvlwBcricWhfkqrorjB'}
-{'key': 14, 'score': 0, 'plaintext': 'KbcobcbuvwfgpvbcvbJqbEjkbOkpjbWpkxgtukvAbqhbVgejpqnqiA'}
-{'key': 15, 'score': 0, 'plaintext': 'JabnabatuvefouabuaIpaDijaNjoiaVojwfstjuzapgaUfdiopmphz'}
-{'key': 17, 'score': 0, 'plaintext': 'HZ lZ ZrstcdmsZ sZGnZBghZLhmgZTmhudqrhsxZneZSdbgmnknfx'}
-{'key': 18, 'score': 0, 'plaintext': 'GYZkYZYqrsbclrYZrYFmYAfgYKglfYSlgtcpqgrwYmdYRcaflmjmew'}
-{'key': 19, 'score': 0, 'plaintext': 'FXYjXYXpqrabkqXYqXElXzefXJfkeXRkfsbopfqvXlcXQb eklildv'}
-{'key': 20, 'score': 0, 'plaintext': 'EWXiWXWopq ajpWXpWDkWydeWIejdWQjeranoepuWkbWPaZdjkhkcu'}
-{'key': 21, 'score': 0, 'plaintext': 'DVWhVWVnopZ ioVWoVCjVxcdVHdicVPidq mndotVjaVO Ycijgjbt'}
-{'key': 22, 'score': 0, 'plaintext': 'CUVgUVUmnoYZhnUVnUBiUwbcUGchbUOhcpZlmcnsUi UNZXbhifias'}
-{'key': 23, 'score': 0, 'plaintext': 'BTUfTUTlmnXYgmTUmTAhTvabTFbgaTNgboYklbmrThZTMYWagheh r'}
-{'key': 24, 'score': 0, 'plaintext': 'ASTeSTSklmWXflSTlSzgSu aSEaf SMfanXjkalqSgYSLXV fgdgZq'}
-{'key': 25, 'score': 0, 'plaintext': 'zRSdRSRjklVWekRSkRyfRtZ RD eZRLe mWij kpRfXRKWUZefcfYp'}
-{'key': 26, 'score': 0, 'plaintext': 'yQRcQRQijkUVdjQRjQxeQsYZQCZdYQKdZlVhiZjoQeWQJVTYdebeXo'}
-{'key': 27, 'score': 0, 'plaintext': 'xPQbPQPhijTUciPQiPwdPrXYPBYcXPJcYkUghYinPdVPIUSXcdadWn'}
-{'key': 28, 'score': 0, 'plaintext': 'wOPaOPOghiSTbhOPhOvcOqWXOAXbWOIbXjTfgXhmOcUOHTRWbc cVm'}
-{'key': 29, 'score': 0, 'plaintext': 'vNO NONfghRSagNOgNubNpVWNzWaVNHaWiSefWglNbTNGSQVabZbUl'}
-{'key': 30, 'score': 0, 'plaintext': 'uMNZMNMefgQR fMNfMtaMoUVMyV UMG VhRdeVfkMaSMFRPU aYaTk'}
-{'key': 31, 'score': 0, 'plaintext': 'tLMYLMLdefPQZeLMeLs LnTULxUZTLFZUgQcdUejL RLEQOTZ X Sj'}
-{'key': 32, 'score': 0, 'plaintext': 'sKLXKLKcdeOPYdKLdKrZKmSTKwTYSKEYTfPbcTdiKZQKDPNSYZWZRi'}
-{'key': 33, 'score': 0, 'plaintext': 'rJKWJKJbcdNOXcJKcJqYJlRSJvSXRJDXSeOabSchJYPJCOMRXYVYQh'}
-{'key': 34, 'score': 0, 'plaintext': 'qIJVIJIabcMNWbIJbIpXIkQRIuRWQICWRdN aRbgIXOIBNLQWXUXPg'}
-{'key': 35, 'score': 0, 'plaintext': 'pHIUHIH abLMVaHIaHoWHjPQHtQVPHBVQcMZ QafHWNHAMKPVWTWOf'}
-{'key': 36, 'score': 0, 'plaintext': 'oGHTGHGZ aKLU GH GnVGiOPGsPUOGAUPbLYZP eGVMGzLJOUVSVNe'}
-{'key': 37, 'score': 0, 'plaintext': 'nFGSFGFYZ JKTZFGZFmUFhNOFrOTNFzTOaKXYOZdFULFyKINTURUMd'}
-{'key': 38, 'score': 0, 'plaintext': 'mEFREFEXYZIJSYEFYElTEgMNEqNSMEySN JWXNYcETKExJHMSTQTLc'}
-{'key': 39, 'score': 0, 'plaintext': 'lDEQDEDWXYHIRXDEXDkSDfLMDpMRLDxRMZIVWMXbDSJDwIGLRSPSKb'}
-{'key': 40, 'score': 0, 'plaintext': 'kCDPCDCVWXGHQWCDWCjRCeKLCoLQKCwQLYHUVLWaCRICvHFKQRORJa'}
-{'key': 41, 'score': 0, 'plaintext': 'jBCOBCBUVWFGPVBCVBiQBdJKBnKPJBvPKXGTUKV BQHBuGEJPQNQI '}
-{'key': 42, 'score': 0, 'plaintext': 'iABNABATUVEFOUABUAhPAcIJAmJOIAuOJWFSTJUZAPGAtFDIOPMPHZ'}
-{'key': 43, 'score': 0, 'plaintext': 'hzAMzAzSTUDENTzATzgOzbHIzlINHztNIVERSITYzOFzsECHNOLOGY'}
-{'key': 44, 'score': 0, 'plaintext': 'gyzLyzyRSTCDMSyzSyfNyaGHykHMGysMHUDQRHSXyNEyrDBGMNKNFX'}
-{'key': 45, 'score': 0, 'plaintext': 'fxyKxyxQRSBCLRxyRxeMx FGxjGLFxrLGTCPQGRWxMDxqCAFLMJMEW'}
-{'key': 46, 'score': 0, 'plaintext': 'ewxJwxwPQRABKQwxQwdLwZEFwiFKEwqKFSBOPFQVwLCwpBzEKLILDV'}
-{'key': 47, 'score': 0, 'plaintext': 'dvwIvwvOPQzAJPvwPvcKvYDEvhEJDvpJERANOEPUvKBvoAyDJKHKCU'}
-{'key': 48, 'score': 0, 'plaintext': 'cuvHuvuNOPyzIOuvOubJuXCDugDICuoIDQzMNDOTuJAunzxCIJGJBT'}
-{'key': 49, 'score': 0, 'plaintext': 'btuGtutMNOxyHNtuNtaItWBCtfCHBtnHCPyLMCNStIztmywBHIFIAS'}
-{'key': 50, 'score': 0, 'plaintext': 'astFstsLMNwxGMstMs HsVABseBGAsmGBOxKLBMRsHyslxvAGHEHzR'}
-{'key': 51, 'score': 0, 'plaintext': ' rsErsrKLMvwFLrsLrZGrUzArdAFzrlFANwJKALQrGxrkwuzFGDGyQ'}
-{'key': 52, 'score': 0, 'plaintext': 'ZqrDqrqJKLuvEKqrKqYFqTyzqczEyqkEzMvIJzKPqFwqjvtyEFCFxP'}
-{'key': 16, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Caesar Cipher with English Dictionary = 0.003120600000000029
+{'key': 46, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
+Time execute Decode with Caesar Cipher with English Dictionary = 0.0022870999999999864
 
-Time Caesar Cipher =  0.008399099999999993
+Time Caesar Cipher =  0.008715200000000034
 
----------------------------------------------------
+--------------------------------------------------------------------------------------
 Encode with Rail Fence Cipher:
-ciphertext =  IHs  oriyat etgmaCvyo  hi latinoo n UfnseM  htdihTcune
+ciphertext =  Il ooangmhy cae Ts tfuod eyntti sarte vHion UC hhin iM
 
-Decode with Rail_fence Cipher with Score:
-{'key': 28, 'score': 4.092226000000002, 'plaintext': 'IH oia tmCy h aio  fsM tiTuenchdh enUnontli ovagetyr s'}
-Time execute Decode with Rail_fence Cipher with Score = 0.0034533000000001035
+Decode with Rail_fence Cipher with Letter Frequency:
+{'key': 3, 'score': 4.092226000000001, 'plaintext': 'Ieo lTns   tofUuooCda  enyhngthtmii hsnayr t ei cvMHai'}
+Time execute Decode with Rail_fence Cipher with Letter Frequency = 0.0074265000000000025
+
+Decode with Rail_fence Cipher with Character Phrase:
+{'key': 6, 'score': 5.0, 'plaintext': 'InstHiit glmtionn fh yus  Uao ocdrCi t aoeeehMh y aTnv'}
+Time execute Decode with Rail_fence Cipher with Character Phrase = 0.006376900000000019
 
 Decode with Rail_fence Cipher with English Dictionary:
-{'key': 10, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Rail_fence Cipher with English Dictionary = 0.0032053000000000775
+{'key': 26, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
+Time execute Decode with Rail_fence Cipher with English Dictionary = 0.004668900000000087
 
-Time Rail Fence Cipher =  0.006683999999999912
+Time Rail Fence Cipher =  0.018517499999999965
 
----------------------------------------------------
+--------------------------------------------------------------------------------------
 Encode with product encryption Rail_fence x Caesar
-ciphertext =  YXIppEHyOqJpuJwCqSLOEppxypBqJyDEEpDpjvDIubppxJtyxisKDu
+ciphertext =  BeThhUg farTWUYTMlTmZnhXTYrgmmbTlUkmYToAbhgTNvTaabgTbF
 
-Decode with Rail_fence x Caesar Cipher with Score:
-{'key': [28, 16], 'score': 4.092226000000002, 'plaintext': 'IH oia tmCy h aio  fsM tiTuenchdh enUnontli ovagetyr s'}
-Time execute Decode with Rail_fence x Caesar Cipher with Score = 0.22240300000000002
+Decode with Rail_fence x Caesar Cipher with Letter Frequency:
+{'key': [3, 46], 'score': 4.092226000000001, 'plaintext': 'Ieo lTns   tofUuooCda  enyhngthtmii hsnayr t ei cvMHai'}
+Time execute Decode with Rail_fence x Caesar Cipher with Letter Frequency = 0.2896529
+
+Decode with Rail_fence x Caesar Cipher Cipher with Character Phrase:
+{'key': 46, 'score': 5.0, 'plaintext': 'InstHiit glmtionn fh yus  Uao ocdrCi t aoeeehMh y aTnv'}
+Time execute Decode with Rail_fence x Caesar Cipher with Character Phrase = 0.35194059999999994
 
 Decode with Rail_fence x Caesar Cipher with English Dictionary:
-{'key': 16, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
-Time execute Decode with Rail_fence x Caesar Cipher with English Dictionary = 0.28927939999999996
+{'key': 46, 'score': 8, 'plaintext': 'I am a student at Ho Chi Minh University of Technology'}
+Time execute Decode with Rail_fence x Caesar Cipher with English Dictionary = 0.23067159999999998
 
-Time Rail Rail_fence x Caesar Cipher =  0.5117352
+Time Rail Rail_fence x Caesar Cipher =  0.872318
